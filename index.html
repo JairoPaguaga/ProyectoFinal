@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Meta Tags-->
+    <meta name="description" content="Desarrollo web y de aplicaciones mobiles, optimizacion de sitios para que figures en primer lugar,
+     Conocimientos en backend y frontend-FullStack">
+     <meta name="keywords" content="Desarrollo web, aplicaciones, SEO">
+     <!--Open Graph-->
+     <meta property="og:title" content="Desarrollador web">
+     <meta property="og:description" content="Desarrollo web y de aplicaciones mobiles, optimizacion de sitios para que figures en primer lugar,
+     Conocimientos en backend y frontend-FullStack">
+     <meta property="og:imagen" content="imagenes/laptop.jpg">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <!--Titutlo-->
+    <title> JAIRO DEVELOPER -- Desarrollo web --</title>
+</head>
+<body>
+    <header>
+        <!--H1 con animacion-->
+        <h1 class="animate__animated animate__backInDown">JAIRO DEVELOPER</h1>
+         <!--Imagen del logo centrado-->
+        <center><div class="logo"><img class="milogo" src="imagenes/logoweb.jpg" alt="logo-web" width="100px" height="130px"></div></center>
+        <!--Menu-->
+        <nav class="contenedor-lista">
+            <ul class="listado-1">
+                <li class="inicio"><a href="index.html">INICIO</a>
+                </li><br>
+                <li class="sobremi"><a href="#informacion">INFO</a>
+                </li><br>
+                <li class="servicios"><a href="#servicios">SERVICIOS</a>
+                </li><br>
+                <li class="clientes"><a href="#clientes">CLIENTES</a>
+                </li><br>
+                <li><a href="#CONTACTANOS">CONTACTAR</a> <!--Menu desplegable-->
+                     <ul class="submenu">
+                         <li><a href="https://www.facebook.com/">Facebook</a>
+                        </li>
+                         <li><a href="https://www.instagram.com">Instagram</a>
+                        </li>
+                         <li><a href="https://www.twitter.com">Twitter</a>
+                        </li>
+                     </ul> 
+                </li>
+            </ul>
+        </nav>
+    </header> 
+<section id="parrafo1"> 
+         <!--Imagen centrada con parrafo superpuesto-->
+         <div class="parrafo-1">
+             <p> Haz llegado a la web indicada, comentame tu idea,
+     trabajemos juntos y me encargo de desarrollar tu diseño! 
+             </p>
+         </div>
+</section>
+<section id="informacion">  
+         <div class="parrafo-2">
+            <h2>
+                 <em>SOBRE MI</em>
+            </h2>
+                 <p> Futuro Desarrollador web y de aplicaciones mobiles, optimizacion de sitios para que figures en primer lugar,
+                    Conocimientos en backend y frontend-FullStack.
+                 </p> 
+                  <!--Informacion sobre mi-->
+         </div>   
+</section>
+<section id="servicios">
+    <div class="izquierda">
+        <h3>SERVICIOS</h3>
+    <p> Desarrollo web y de aplicaciones mobiles, optimizacion de sitios para que figures en primer lugar,
+        Conocimientos en backend y frontend-FullStack!</p>
+        <!--Servicios que ofrezco-->
+    </div>
+    <div class="derecha"></div>
+</section>
+<div class="titulo-clientes">
+    <p>Clientes</p>
+</div>
+<section id="clientes"> 
+    <div class="contenedor-clientes">
+        <div><img src="imagenes/canon-logo.jpg" alt="burger-king"></div>
+        <div><img src="imagenes/claro.jfif" alt="claro"></div>
+        <div><img src="imagenes/epicgames.png" alt="epicgames"></div>
+        <div><img src="imagenes/bmw.jfif" alt="bmw"></div>
+        <div><img src="imagenes/xprinta-logo.jpg" alt="xprinta"></div>
+        <div><img src="imagenes/neea.jpg" alt="neea"></div>
+        <div><img src="imagenes/cocacola.png" alt="Coca-cola"></div>
+    <!--Imagen y logos de clientes-->
+    </div>
+</section>
+<section id="CONTACTANOS">
+         <p class="parrafo-3">Contactame al 0800-1000 <br>
+        Lunes-Viernes 8:00 - 20:00<br>
+        Sábado-Domingo 9:00 - 20:00 
+         </p>
+</section>
+<section>
+     <div class="contact-form">
+        <h3 class="animate__animated animate__bounceInDown">Contactame</h3>
+        <form action="">
+            <p>
+                <label>Nombre</label>
+                <input type="text" name="fullname">
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label>Telefono</label>
+                <input type="tel" name="phone">
+            </p>
+            <p>
+                <label>Asunto</label>
+                <input type="text" name="affair">
+            </p>
+            <p class="block">
+               <label>Mensaje</label> 
+                <textarea name="message" rows="3"></textarea>
+            </p>
+            <p class="block">
+                <button>
+                    Enviar
+                </button>
+            </p>
+        </form>
+    </div>
+</section>
+<!--Bootstrap Alerta-->
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Atencion!</strong> Deberias buscar mas sobre nosotros en nuestras redes sociales!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <!--Footer-->
+    <footer>
+        <nav>
+            <!--Mis redes sociales-->
+             <ul class="listado-3">
+                <li> 
+                    <a href="https://www.facebook.com/"><img class="logo-1" src="imagenes/iconoF.png" alt="facebook" width="50px" height="50px"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com"><img class="logo-2" src="imagenes/iconoInsta.png" alt="instagram" width="50px" height="50px"></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com"><img class="logo-3" src="imagenes/iconoTwitter.png" alt="twitter" width="50px" height="50px"></a>
+                </li>
+             </ul>
+        </nav>    
+    </footer>  
+    <!--Script de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>

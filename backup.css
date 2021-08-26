@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ li > ul{
+    display: none;
+}
+.logo {
+    justify-content: center;
+}
+/*Menu*/
+header nav ul li:hover > ul{
+    display: block;
+    position:absolute;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+h1 {
+    position: sticky;
+    top: 0%;
+    font-size: xx-large;
+text-align: center;
+background-color: rgb(170, 170, 32);
+}
+.contenedor-lista{
+ width: 100%;
+ height: 10vh;
+ position: fixed;
+ display: flex;
+ justify-content: center;  
+ justify-content:space-evenly;
+ top: 170px;
+ }
+.listado-1 {
+    list-style:none;
+    z-index: 1999;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px;
+}
+header nav ul li a { 
+    color: red;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-decoration: none;
+font-size: larger;
+background: black ;
+padding: 4px 10px;
+border-radius: 15px;
+margin: 20px;
+border-style:ridge;
+}
+.submenu li {
+    list-style:none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 4px 1px;
+    border:none;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: black;
+    height:400px;
+    background-size: cover;
+}
+/*Section Parrafo1*/
+#parrafo1 {
+    background-image: url(imagenes/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .parrafo-1 {
+        color: rgb(214, 2, 2);
+        height: 30em;
+    font-size: xx-large; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    }
+     .parrafo-1 p {padding: 300px;}
+    /*Section Informacion*/
+.parrafo-2 {
+    padding: 50px;
+    margin: 0%; 
+height: 300px; 
+}
+#informacion {
+    background-image: url(imagenes/fondo-sombra.jpg);
+width: 100%;
+height: 500px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size:xx-large;
+background-color: black;
+color:rgba(255, 0, 0, 0.904);
+border-radius: 15px;
+border-style:inset;
+border-color: rgb(6, 54, 54);
+width: 19%;
+margin: 0%auto;
+}
+.parrafo-2 p {
+    text-align: center;
+color: black;
+margin: 0%;
+padding: 15px;
+font-size:40px;
+font-family:Arial, Helvetica, sans-serif;
+width: 100%;
+}
+/*Section Servicios*/
+ .izquierda {
+     background: black;
+     height: 600px;
+     width: 50%;
+ }
+ .derecha {
+     background-image: url(imagenes/desarrollador.jpg);
+ background-size: cover;
+ background-position: center;
+ width: 50%;
+ height: 600px
+}
+#servicios {
+    display: flex;
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
+    width: 57%;
+    color:rgba(169, 169, 169, 0.829);
+    margin: 50px;
+    margin-bottom: 60px;
+}
+#servicios .izquierda p {
+    color: rgb(199, 9, 9);
+    font-size: 25px;
+    line-height: 30px;
+    width: 70%;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/*Section Clientes*/
+#clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-clientes {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Section CONTACTANOS*/
+#CONTACTANOS { background-image:url(imagenes/gif.gif);
+    width: 100%;
+    height: 500px;
+    image-rendering: optimizeQuality;}
+.parrafo-3 {
+    text-align: center;
+    margin: 50px;
+    padding: 175px;
+    color:rgb(230, 40, 33);
+font-size:50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: maroon;
+border-radius: 20px 30px;
+text-transform: lowercase;
+}
+/*GRID*/
+.contact-form h3 {color: red;}
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-form form label {
+    display: block;
+}
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 1px solid #d63031;
+}
+.contact-form form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background:rgb(209, 8, 48);
+    color:black;
+    transition: background-color 1s ease-out;
+    outline: 0;
+    text-align: center;
+}
+/*Bootstrap -Alerta-*/
+.alert {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+/*Footer*/
+.listado-3 {
+    border-style:double;
+    border-top-style: groove;
+    padding: 70px;
+    margin-top: 0%;
+    background-color:black;
+    width: 100%;
+    height: 200px;
+    display: flex;
+justify-content:space-around;
+}
+
+@media screen and (max-width:1600px){
+    h1{
+        background-color: red;
+    }
+    .contenedor-clientes img{
+        width: 150px;
+    }
+}
+@media screen and (max-width:850px){
+    .parrafo-1{
+        width: 100%;
+        position: relative;
+    }
+    .parrafo-1 p {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        font-size:  50px;
+        width: 70%;
+    }
+    header nav ul li a { 
+     font-size: 12px;
+    margin: 10px; 
+    }
+    .parrafo-3{ 
+     font-size: 30px;
+    }
+}
+@media screen and (max-width:750px){
+  .izquierda h3 {
+      font-size: 25px;
+  }
+}
+@media screen and (max-width:455px){
+    #parrafo1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    } 
+    .parrafo-1{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parrafo-1 p {
+        justify-content: center;
+        width: 300px;
+     font-size: 10px;
+    }
+    .parrafo-3{ 
+        font-size: 20px;
+       }
+}
+@media screen and (max-width:575px){
+    header nav ul li a { 
+        font-size: 10px;
+        margin: 2px;
+       }
+   }
+@media screen and (max-width:455px){
+    header nav ul li a { 
+        font-size: 9px; 
+       }
+ #informacion p {
+     font-size: 18px;
+ }
+ .parrafo-3{ 
+    font-size: 15px;
+   }
+   .parrafo-1 p {
+    font-size: 25px;
+   }
+}
+/*Transformaciones-Transiciones*/
+/*Menu navegable*/
+.inicio:hover {
+    transform: scale(1.3);
+}
+.sobremi:hover {
+    transform: scale(1.3);
+}
+.servicios:hover {
+    transform: scale(1.3);
+}
+.clientes:hover {
+    transform: scale(1.3);
+}
+/*Rotacion de Logo*/
+.milogo:hover {
+    transform: rotate(360deg) scaleX(2.3);
+}
+.milogo {
+    transition: all 3s;
+}
+.milogo {
+    border-radius: 50px;
+    border-style:dotted;
+}
+/*Translate de Iconos en Footer*/
+.logo-1 {
+    transition:all 1.5s
+}
+.logo-2 {
+    transition: ease 1s;
+}
+.logo-3 {
+    transition: all ease-in 1s;
+}
+.logo-1:hover, .logo-2:hover ,
+.logo-3:hover  {
+    transform: translateY(-20px);
+}

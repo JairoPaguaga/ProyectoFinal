@@ -1,0 +1,26 @@
+/*Section Parrafo1*/
+#parrafo1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    display: flex;
+    background-color: black;
+    height: 999px;
+    .parrafo-1{
+        font-size: 50px; 
+        background-image: url("../imagenes/programacionn.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center; 
+        align-items: center;
+        display: flex;
+    }
+    
+    }
+    
+    @media screen and (max-width:500px){
+        .parrafo-1 p {
+            font-size: 25px;
+        }
+    }
+    

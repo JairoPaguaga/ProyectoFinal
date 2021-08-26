@@ -1,0 +1,32 @@
+/*Section Servicios*/
+.izquierda {
+    background: black;
+    height: 600px;
+    width: 50%;
+}
+.derecha {
+    background-image: url("../imagenes/desarrollador.jpg");
+background-size: cover;
+background-position: center;
+width: 50%;
+height: 600px
+}
+#servicios {
+   display: flex;
+}
+h3 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 52px;
+   width: 57%;
+   color:rgba(169, 169, 169, 0.829);
+   margin: 50px;
+   margin-bottom: 60px;
+}
+#servicios .izquierda p {
+   color: rgb(199, 9, 9);
+   font-size: 25px;
+   line-height: 30px;
+   width: 70%;
+   margin: auto;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
