@@ -38,6 +38,7 @@ header nav ul li:hover > ul{
     display: block;
     position:absolute;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    left: 0;
 }
 h1 {
     position: sticky;
